@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ksu.impliciticctest_action"
+    package="com.ksu.implicit1"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.ksu.impliciticctest_action.MainActivity"
+            android:name="com.ksu.implicit1.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ksu.impliciticctest_action.FooActivity"
+            android:name="com.ksu.implicit1.FooActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="amandroid.impliciticctest_action.testaction" />
