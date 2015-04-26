@@ -8,14 +8,13 @@ import android.content.Intent;
 import android.view.Menu;
 
 /**
- * @testcase_name InterComponentCommunication_Implicit1
+ * @testcase_name ICC_Implicit_NoSrc_Sink
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 
  * @description Insensitive value v is sent to component FooActivity via implicit ICC. 
  * 				In FooActivity, it will retrieve value v and leak it. 
- * @dataflow source -> imei -> MainActivity's intent -> sink (implicit ICC)
- * 			 source -> imei -> MainActivity's intent -> FooActivity's intent -> imei -> sink
+ * @dataflow v -> MainActivity's intent -> _
  * @number_of_leaks 0
  * @challenges The analysis must be able to resolve implicit (Action) ICC calls and handle data flow 
  * 				via different components.

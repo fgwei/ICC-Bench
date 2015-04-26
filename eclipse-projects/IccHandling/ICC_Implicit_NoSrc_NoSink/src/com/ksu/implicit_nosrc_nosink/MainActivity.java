@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.view.Menu;
 
 /**
- * @testcase_name InterComponentCommunication_Implicit1
+ * @testcase_name ICC_Implicit_NoSrc_NoSink
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 

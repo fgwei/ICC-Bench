@@ -8,7 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 /**
- * @testcase_name InterComponentCommunication_Explicit1
+ * @testcase_name ICC_Explicit_Src_Sink
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 

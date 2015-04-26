@@ -5,12 +5,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-public class MyReceiver extends BroadcastReceiver 
+public class MyReceiver2 extends BroadcastReceiver 
 {
 
 	@Override
 	public void onReceive(Context arg0, Intent arg1) {
-		Log.d("leak", arg1.getStringExtra("id")); //sink
+		String id = arg1.getStringExtra("id");
+		process(id);
+	}
+	
+	private void process(String id) {
+		Log.d("leak2", id); //sink
 	}
 
 }

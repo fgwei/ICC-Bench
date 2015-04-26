@@ -9,7 +9,7 @@ import android.telephony.TelephonyManager;
 import android.view.Menu;
 
 /**
- * @testcase_name InterComponentCommunication_DynRegister1
+ * @testcase_name InterComponentCommunication_DynRegister2
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 
@@ -27,14 +27,15 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);	
+		setContentView(R.layout.activity_main);
+		registerReceiver(new MyReceiver(), new IntentFilter("com.ksu"));
+		registerReceiver(new MyReceiver2(), new IntentFilter("com.ksu2"));
+		TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+		String id = tm.getDeviceId(); //source
 		StringBuilder sb = new StringBuilder();
 		sb.append("com.");
 		sb.append("ksu");
-		registerReceiver(new MyReceiver(), new IntentFilter(sb.toString()));
-		TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-		String id = tm.getDeviceId(); //source
-		Intent i = new Intent("com.ksu");
+		Intent i = new Intent(sb.toString());
 		i.putExtra("id", id);
 		sendBroadcast(i); //leak
 	}

@@ -10,7 +10,7 @@ import android.telephony.TelephonyManager;
 import android.view.Menu;
 
 /**
- * @testcase_name InterComponentCommunication_Implicit5
+ * @testcase_name InterComponentCommunication_Implicit6
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 

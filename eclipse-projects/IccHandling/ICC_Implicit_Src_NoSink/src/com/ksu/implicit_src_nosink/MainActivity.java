@@ -9,14 +9,13 @@ import android.telephony.TelephonyManager;
 import android.view.Menu;
 
 /**
- * @testcase_name InterComponentCommunication_Implicit1
+ * @testcase_name ICC_Implicit_Src_NoSink
  * @author Fengguo Wei & Sankardas Roy
  * @author_mail fgwei@ksu.edu & sroy@ksu.edu
  * 
  * @description The value v of a source is sent to component FooActivity via implicit ICC. 
  * 				In FooActivity, it will retrieve value v but not leak it. 
  * @dataflow source -> imei -> MainActivity's intent -> sink (implicit ICC)
- * 			 source -> imei -> MainActivity's intent -> FooActivity's intent -> imei -> sink
  * @number_of_leaks 1
  * @challenges The analysis must be able to resolve implicit (Action) ICC calls and handle data flow 
  * 				via different components.
