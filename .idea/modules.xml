@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ICC-Bench.iml" filepath="$PROJECT_DIR$/ICC-Bench.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_dynregister1/icc_dynregister1.iml" filepath="$PROJECT_DIR$/icc_dynregister1/icc_dynregister1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_dynregister2/icc_dynregister2.iml" filepath="$PROJECT_DIR$/icc_dynregister2/icc_dynregister2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_explicit1/icc_explicit1.iml" filepath="$PROJECT_DIR$/icc_explicit1/icc_explicit1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_explicit_nosrc_nosink/icc_explicit_nosrc_nosink.iml" filepath="$PROJECT_DIR$/icc_explicit_nosrc_nosink/icc_explicit_nosrc_nosink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_explicit_nosrc_sink/icc_explicit_nosrc_sink.iml" filepath="$PROJECT_DIR$/icc_explicit_nosrc_sink/icc_explicit_nosrc_sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_explicit_src_nosink/icc_explicit_src_nosink.iml" filepath="$PROJECT_DIR$/icc_explicit_src_nosink/icc_explicit_src_nosink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_explicit_src_sink/icc_explicit_src_sink.iml" filepath="$PROJECT_DIR$/icc_explicit_src_sink/icc_explicit_src_sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_action/icc_implicit_action.iml" filepath="$PROJECT_DIR$/icc_implicit_action/icc_implicit_action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_category/icc_implicit_category.iml" filepath="$PROJECT_DIR$/icc_implicit_category/icc_implicit_category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_data1/icc_implicit_data1.iml" filepath="$PROJECT_DIR$/icc_implicit_data1/icc_implicit_data1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_data2/icc_implicit_data2.iml" filepath="$PROJECT_DIR$/icc_implicit_data2/icc_implicit_data2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_mix1/icc_implicit_mix1.iml" filepath="$PROJECT_DIR$/icc_implicit_mix1/icc_implicit_mix1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_mix2/icc_implicit_mix2.iml" filepath="$PROJECT_DIR$/icc_implicit_mix2/icc_implicit_mix2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_nosrc_nosink/icc_implicit_nosrc_nosink.iml" filepath="$PROJECT_DIR$/icc_implicit_nosrc_nosink/icc_implicit_nosrc_nosink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_nosrc_sink/icc_implicit_nosrc_sink.iml" filepath="$PROJECT_DIR$/icc_implicit_nosrc_sink/icc_implicit_nosrc_sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_src_nosink/icc_implicit_src_nosink.iml" filepath="$PROJECT_DIR$/icc_implicit_src_nosink/icc_implicit_src_nosink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" filepath="$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" />
+    </modules>
+  </component>
+</project>

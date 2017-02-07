@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ICC_Implicit_Data2</string>
+    <string name="title_activity_foo">FooActivity</string>
+    <string name="title_activity_hook">HookActivity</string>
+</resources>

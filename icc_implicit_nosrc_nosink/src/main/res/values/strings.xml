@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ICC_Implicit_NoSrc_NoSink</string>
+    <string name="title_activity_foo">FooActivity</string>
+</resources>

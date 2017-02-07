@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ICC_Implicit_Src_Sink</string>
+    <string name="title_activity_foo">FooActivity</string>
+</resources>
