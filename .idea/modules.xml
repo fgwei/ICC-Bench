@@ -20,6 +20,11 @@
       <module fileurl="file://$PROJECT_DIR$/icc_implicit_nosrc_sink/icc_implicit_nosrc_sink.iml" filepath="$PROJECT_DIR$/icc_implicit_nosrc_sink/icc_implicit_nosrc_sink.iml" />
       <module fileurl="file://$PROJECT_DIR$/icc_implicit_src_nosink/icc_implicit_src_nosink.iml" filepath="$PROJECT_DIR$/icc_implicit_src_nosink/icc_implicit_src_nosink.iml" />
       <module fileurl="file://$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" filepath="$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_intentservice/icc_intentservice.iml" filepath="$PROJECT_DIR$/icc_intentservice/icc_intentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_rpc_comprehensive/icc_rpc_comprehensive.iml" filepath="$PROJECT_DIR$/icc_rpc_comprehensive/icc_rpc_comprehensive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" filepath="$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" filepath="$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" filepath="$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" />
     </modules>
   </component>
 </project>
