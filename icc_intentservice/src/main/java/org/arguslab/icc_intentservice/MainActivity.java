@@ -1,9 +1,9 @@
 package org.arguslab.icc_intentservice;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 
@@ -13,13 +13,13 @@ import android.telephony.TelephonyManager;
  * @author_mail fgwei521@gmail.com & sroy@ksu.edu
  *
  * @description The value v of a source is sent to component MyIntentService.
- * 				In MyIntentService, it will handle the Intent and leak it.
+ *              In MyIntentService, it will handle the Intent and leak it.
  * @dataflow source -> imei -> MainActivity's intent -> MyIntentService's onHandleIntent() -> imei -> sink
  * @number_of_leaks 1
  * @challenges The analysis must be able to resolve IntentService and handle data flow
- * 				via different components.
+ *              via different components.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
