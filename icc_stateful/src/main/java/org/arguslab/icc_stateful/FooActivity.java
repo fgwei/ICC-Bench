@@ -15,7 +15,7 @@ public class FooActivity extends Activity {
         String imei = tel.getDeviceId(); // source
         Intent i2 = getIntent();
         i2.putExtra("data", imei);
-        setResult(RESULT_OK, i2);
+        setResult(RESULT_OK, i2); // sink
         finish();
     }
 }
