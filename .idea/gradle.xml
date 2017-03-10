@@ -30,6 +30,7 @@
             <option value="$PROJECT_DIR$/rpc_localservice" />
             <option value="$PROJECT_DIR$/rpc_messengerservice" />
             <option value="$PROJECT_DIR$/rpc_remoteservice" />
+            <option value="$PROJECT_DIR$/rpc_returnsensitive" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

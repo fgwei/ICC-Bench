@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" filepath="$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" filepath="$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" filepath="$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_returnsensitive/rpc_returnsensitive.iml" filepath="$PROJECT_DIR$/rpc_returnsensitive/rpc_returnsensitive.iml" />
     </modules>
   </component>
 </project>

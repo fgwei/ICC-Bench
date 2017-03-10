@@ -10,7 +10,7 @@ public class RemoteService extends Service {
     public RemoteService() {
     }
 
-    private final IRemoteService.Stub mBinder = new IRemoteService.Stub() {
+    private final IBinder mBinder = new IRemoteService.Stub() {
         @Override
         public void setData(String data) throws RemoteException {
             Log.d("imei", "" + data); // sink
