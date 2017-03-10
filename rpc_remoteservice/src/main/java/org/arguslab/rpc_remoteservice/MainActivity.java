@@ -22,7 +22,7 @@ import android.telephony.TelephonyManager;
  * @dataflow source -> imei -> mService.setData() -> RemoteService.setData() -> data -> sink
  * @number_of_leaks 1
  * @challenges The analysis must be able to resolve AIDL and handle data flow
- * 				via different components.
+ * 				across different components.
  */
 public class MainActivity extends Activity {
 

@@ -21,7 +21,7 @@ import android.telephony.TelephonyManager;
  * 			 source -> imei -> MainActivity's intent -> FooActivity's intent -> HookActivity's intent -> sink
  * @number_of_leaks 3
  * @challenges The analysis must be able to resolve implicit (Data&MType) ICC calls and handle data flow
- * 				via different components.
+ * 				across different components.
  */
 public class MainActivity extends Activity {
 

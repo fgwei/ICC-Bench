@@ -24,7 +24,7 @@ import android.telephony.TelephonyManager;
  * @dataflow source -> imei -> mService.send() -> MessengerService.IncomingHandler's handleMessage() -> imei -> sink
  * @number_of_leaks 1
  * @challenges The analysis must be able to resolve MessengerService and handle data flow
- * 				via different components.
+ * 				across different components.
  */
 public class MainActivity extends Activity {
 

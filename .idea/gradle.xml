@@ -27,6 +27,7 @@
             <option value="$PROJECT_DIR$/icc_implicit_src_sink" />
             <option value="$PROJECT_DIR$/icc_intentservice" />
             <option value="$PROJECT_DIR$/icc_rpc_comprehensive" />
+            <option value="$PROJECT_DIR$/icc_stateful" />
             <option value="$PROJECT_DIR$/rpc_localservice" />
             <option value="$PROJECT_DIR$/rpc_messengerservice" />
             <option value="$PROJECT_DIR$/rpc_remoteservice" />

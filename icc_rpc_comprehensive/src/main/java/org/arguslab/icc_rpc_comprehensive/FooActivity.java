@@ -9,6 +9,19 @@ import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 
+/**
+ * @testcase_name ICC_RPC_Comprehensive
+ * @author Fengguo Wei & Sankardas Roy
+ * @author_mail fgwei521@gmail.com & sroy@ksu.edu
+ *
+ * @description FooActivity start a stateful ICC with BarActivity and waiting for the result and leak it.
+ *              The sensitive data is obtained by BarActivity from component RemoteService via RPC call.
+ * 				BarActivity then return the sensitive data to FooActivity.
+ * @dataflow source -> imei -> RemoteService.getData() -> BarActivity's imei2 -> BarActivity's Intent i3 -> BarActivity.setResult(i3) -> FooActivity.onActivityResult(data) -> imei3 -> leak
+ * @number_of_leaks 1
+ * @challenges The analysis must be able to resolve AIDL, stateful ICC and handle data flow
+ * 				across different components.
+ */
 public class FooActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

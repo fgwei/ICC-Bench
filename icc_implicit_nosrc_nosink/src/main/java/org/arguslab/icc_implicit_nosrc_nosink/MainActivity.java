@@ -16,7 +16,7 @@ import android.view.Menu;
  * 			 v -> MainActivity's intent -> FooActivity's intent -> v
  * @number_of_leaks 0
  * @challenges The analysis must be able to resolve implicit (Action) ICC calls and handle data flow
- * 				via different components.
+ * 				across different components.
  */
 public class MainActivity extends Activity {
 

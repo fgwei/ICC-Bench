@@ -17,7 +17,7 @@ import android.content.Intent;
  * @dataflow source -> imei -> MainActivity's intent -> FooActivity's intent -> imei
  * @number_of_leaks 0
  * @challenges The analysis must be able to resolve explicit ICC calls and handle data flow
- * 				via different components.
+ * 				across different components.
  */
 public class MainActivity extends Activity {
 

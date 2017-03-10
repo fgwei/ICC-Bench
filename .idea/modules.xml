@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" filepath="$PROJECT_DIR$/icc_implicit_src_sink/icc_implicit_src_sink.iml" />
       <module fileurl="file://$PROJECT_DIR$/icc_intentservice/icc_intentservice.iml" filepath="$PROJECT_DIR$/icc_intentservice/icc_intentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/icc_rpc_comprehensive/icc_rpc_comprehensive.iml" filepath="$PROJECT_DIR$/icc_rpc_comprehensive/icc_rpc_comprehensive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icc_stateful/icc_stateful.iml" filepath="$PROJECT_DIR$/icc_stateful/icc_stateful.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" filepath="$PROJECT_DIR$/rpc_localservice/rpc_localservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" filepath="$PROJECT_DIR$/rpc_messengerservice/rpc_messengerservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" filepath="$PROJECT_DIR$/rpc_remoteservice/rpc_remoteservice.iml" />

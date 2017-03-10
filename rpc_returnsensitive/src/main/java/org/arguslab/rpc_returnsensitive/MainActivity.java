@@ -11,6 +11,18 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
+/**
+ * @testcase_name RPC_ReturnSensitive
+ * @author Fengguo Wei
+ * @author_mail fgwei521@gmail.com
+ *
+ * @description The value v of a source is obtained from component LocalService via RPC call.
+ * 				In MainActivity, it will handle the value and leak it.
+ * @dataflow source -> imei -> return from LocalService.getData() -> mService.getData() -> data -> sink
+ * @number_of_leaks 1
+ * @challenges The analysis must be able to resolve LocalService and handle data flow
+ * 				across different components.
+ */
 public class MainActivity extends Activity {
     LocalService mService;
     boolean mBound = false;
@@ -59,7 +71,7 @@ public class MainActivity extends Activity {
 
     private void leakData() {
         String data = "" + mService.getData();
-        Log.i("data", data);
+        Log.i("data", data); // leak
     }
 
     @Override

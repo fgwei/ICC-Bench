@@ -20,7 +20,7 @@ import android.telephony.TelephonyManager;
  * 			 source -> imei -> MainActivity's intent -> MyReciver's intent -> imei -> sink
  * @number_of_leaks 2
  * @challenges The analysis must be able to resolve dynamically registered component, implicit
- * 				ICC calls and handle data flow via different components.
+ * 				ICC calls and handle data flow across different components.
  */
 public class MainActivity extends Activity {
 
