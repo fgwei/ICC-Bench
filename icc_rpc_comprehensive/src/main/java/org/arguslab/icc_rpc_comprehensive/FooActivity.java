@@ -18,7 +18,8 @@ import android.view.View;
  *              The sensitive data is obtained by BarActivity from component RemoteService via RPC call.
  * 				BarActivity then return the sensitive data to FooActivity.
  * @dataflow source -> imei -> RemoteService.getData() -> BarActivity's imei2 -> BarActivity's Intent i3 -> BarActivity.setResult(i3) -> FooActivity.onActivityResult(data) -> imei3 -> leak
- * @number_of_leaks 1
+ *           source -> imei -> RemoteService.getData() -> BarActivity's imei2 -> BarActivity's Intent i3 -> BarActivity.setResult(i3)
+ * @number_of_leaks 2
  * @challenges The analysis must be able to resolve AIDL, stateful ICC and handle data flow
  * 				across different components.
  */
