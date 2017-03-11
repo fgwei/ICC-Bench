@@ -16,7 +16,8 @@ import android.util.Log;
  * 				FooActivity obtains sensitive data and return to MainActivity.
  * @dataflow source -> imei -> i2 -> FooActivity.setResult(i2) -> MainActivity.onActivityResult(data) -> imei3 -> sink
  *           source -> imei -> i2 -> FooActivity.setResult(i2)
- * @number_of_leaks 2
+ *           MainActivity.onActivityResult(data) -> imei3 -> sink
+ * @number_of_leaks 3
  * @challenges The analysis must be able to resolve stateful ICC call and handle data flow
  * 				across different components.
  */
